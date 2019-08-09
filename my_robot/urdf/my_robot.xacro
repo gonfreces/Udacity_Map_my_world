@@ -1,6 +1,5 @@
 <?xml version='1.0'?>
 
-
 <robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 	<xacro:include filename="$(find my_robot)/urdf/my_robot.gazebo" />	
@@ -185,6 +184,15 @@
 		<child link="camera"/>
 		<parent link="chassis"/>
 	</joint> 
+
+	<joint name="camera_optical_joint" type="fixed">
+		<origin xyz="0 0 0" rpy="-1.5707 0 -1.5707"/>
+		<parent link="camera"/>
+		<child link="camera_link_optical"/>
+	</joint>
+
+	<link name="camera_link_optical">
+		</link>
 		
 	<!-- LIDAR = Hokuyo Sensor -->
 	<link name="hokuyo">
