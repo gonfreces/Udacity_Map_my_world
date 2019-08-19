@@ -13,7 +13,7 @@
 - Run `roslaunch my_robot mapping.launch` in the second terminal window
 - Select *map* in the Rviz Global Options as the */map* topic is now available
 - Next, select the *MapCloud* topic to display the 3D cloud of the environment visible to the robot in rviz
-- In the third terminal, you can then use *teleop* by running `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`
+- In the third terminal, you can then use *teleop* by running `rosrun teleop_twist_keyboard teleop_twist_keyboard.py` or by running `roslaunch turtlebot_teleop keyboard_teleop.launch`
 - Explore the world now to build a map
 - Best Practices: Move slowly for the map to build to create a map with low no of passes. You can maximize the loop closures by going over similar paths two or three times
  - After exploring the entire map, close all the terminals
