@@ -1,4 +1,4 @@
-# Udacity_2_AMCL_Where_Am_I
+# Udacity_Map_My_World
 
 ![Output](https://github.com/gonfreces/Udacity_Map_my_world/blob/master/ezgif.com-crop.gif)
 
